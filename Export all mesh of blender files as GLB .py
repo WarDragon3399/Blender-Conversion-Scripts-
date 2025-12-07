@@ -1,3 +1,4 @@
+#Export all mesh of blend file as GLB in diffrent files location of export same as blend file   
 import bpy
 import os
 
@@ -56,5 +57,6 @@ else:
     # Re-select original selection when finished
     for obj in selection:
         obj.select_set(True)
+
 
     print(f"Exported {len(selection)} objects to {basedir}")
