@@ -2,7 +2,7 @@ import bpy
 import os
 
 # --- SET YOUR FOLDER PATH HERE ---
-folder_path = r'C:\Path\To\Your\GLB\Files'
+folder_path = r'C:\Path\To\Your\GLB\Files' #use your own path of folder
 
 def clean_glb_uv_maps(directory):
     if not os.path.exists(directory):
